@@ -7,6 +7,10 @@
     float: left;
     height: 100px;
     width: 100px;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 75px;
+    color: red;
 }
 
 .row {
@@ -29,4 +33,14 @@
 
 .right {
     border-left: 1px black solid;
+}
+body {
+    background-color: silver;
+}
+.winner {
+    color: rgb(5, 143, 197);
+}
+.name {
+    color: green;
+    text-decoration: underline;
 }
